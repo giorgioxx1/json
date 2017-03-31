@@ -13,13 +13,8 @@ module GET_NEWS
 	@@mashable = []
 	@@digg = []
 
-	def self.id=
-		puts @@id
+	def self.id
 		@@id = 1
-		puts @@id
-		@@reddit = []
-		@@mashable = []
-		@@digg = []
 	end
 
 	def self.reddit
@@ -101,7 +96,6 @@ module GET_NEWS
 		new_full
 		@@digg = new_full
 	end
-
 
 end
 
